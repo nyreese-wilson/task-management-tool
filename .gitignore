@@ -1,0 +1,21 @@
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
+
+# Java / Maven / Spring Boot
+backend/target/
+*.jar
+*.war
+
+# Node / React / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Environment variables & secrets
+.env
+*.env.local
+application-local.yml
