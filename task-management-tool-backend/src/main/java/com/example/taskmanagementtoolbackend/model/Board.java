@@ -32,5 +32,6 @@ public class Board {
     public Board(String title, Workspace workspace) {
         this.title = title;
         this.workspace = workspace;
+        this.lists = new ArrayList<>();
     }
 }

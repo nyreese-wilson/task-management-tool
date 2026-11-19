@@ -36,6 +36,7 @@ public class TaskList {
         this.title = title;
         this.position = position;
         this.board = board;
+        this.tasks = new ArrayList<>();
     }
 }
 
